@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ano_de_Nascimento</string>
+    <string name="idade_edt_txt">Idade: (ex:25)</string>
+    <string name="nascimento_btn">Diga-me o ano do meu nascimento</string>
+</resources>
