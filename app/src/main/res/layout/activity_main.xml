@@ -7,11 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
     <EditText
         android:id="@+id/idadeEDT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/idade_edt_txt"
+        android:inputType="number"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
