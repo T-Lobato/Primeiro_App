@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListener() {
         binding.calcularBTN.setOnClickListener{
-            val idade = binding.idadeEDT.text.toString().toInt()
+            val idade = binding.idadeIdade.text.toString().toInt()
             val calculoAno = (2021 - idade)
 
             if(idade in 1..100){
